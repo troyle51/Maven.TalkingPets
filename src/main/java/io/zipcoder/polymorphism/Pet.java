@@ -6,7 +6,7 @@ public class Pet {
     private int age;
     private int id;
 
-    public Pet(String name, String breed,) {
+    public Pet(String name, String breed, Integer id, Integer age) {
         this.name = name;
         this.breed = breed;
         this.age = age;
@@ -15,11 +15,11 @@ public class Pet {
 
     public String getName() { return name; }
 
-    public String setName(String name) { return name; }
+    public void setName(String name) { this.name = name; }
 
     public String getBreed() { return breed; }
 
-    public String setBreed(String breed) { return breed; }
+    public void setBreed(String breed) { this.breed = breed; }
 
     public Integer getAge() { return age; }
     public Integer getId() { return id; }
