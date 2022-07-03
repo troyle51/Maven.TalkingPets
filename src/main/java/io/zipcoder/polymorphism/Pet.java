@@ -15,11 +15,11 @@ public class Pet {
 
     public String getName() { return name; }
 
-    public void setName(String name) { return name; }
+    public String setName(String name) { return name; }
 
     public String getBreed() { return breed; }
 
-    public void setBreed(String breed) { return breed; }
+    public String setBreed(String breed) { return breed; }
 
     public Integer getAge() { return age; }
     public Integer getId() { return id; }
