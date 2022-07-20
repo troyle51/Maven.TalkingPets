@@ -2,10 +2,13 @@ package io.zipcoder.polymorphism;
 
 public class Bird extends Pet{
 
-    public Bird(String name, String breed, Integer id, Integer age) {
-        super(name, breed, id, age);
+    public Bird(String name) {
+        super(name);
     }
     public String speak(){
         return "Chirp!";
+    }
+    public String getPet() {
+        return "Bird";
     }
 }
